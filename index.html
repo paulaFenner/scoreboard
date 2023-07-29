@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="styles.css" />
+    <title>Basketball Scoreboard</title>
+  </head>
+  <body>
+    <!-- html for the home team -->
+    <div class="container">
+      <div class="team-container">
+        <h1>HOME</h1>
+        <img id="bax-logo" src="BAX-CAT-logo.png" alt="logo time basquetebol feminino BAX Catanduva">
+        <h3
+          class="score"
+          id="score-h">
+          0
+        </h3>
+        <div class="points">
+          <button onclick="home1()">+1</button>
+          <button onclick="home2()">+2</button>
+          <button onclick="home3()">+3</button>
+        </div>
+      </div>
+
+       <!-- html for the reset button -->
+       <div class="middle-column">
+        <h2>Women's <br> Basketball <br>League</h2>
+        <button id="reset-btn" onclick="newGame()">RESET</button>
+        <img id="lbf-logo" src="lbf-live-3518532338.png" alt="liga brasileira de basquetebol logo">
+    </div>
+
+      <!-- html for the guest team -->
+      <div class="container">
+        <div class="team-container">
+          <h1>GUEST</h1>
+         <img id="sesi-logo" src="SESI-Araraquara-Basquete.png" alt="logo time basquetebol feminino Sesi Araraquara">
+          <h3
+            class="score"
+            id="score-g">
+            0
+          </h3>
+          <div class="points">
+            <button onclick="guest1()">+1</button>
+            <button onclick="guest2()">+2</button>
+            <button onclick="guest3()">+3</button>
+          </div>
+        </div>
+
+       
+      
+    <script src="index.js"></script>
+  </body>
+</html>
