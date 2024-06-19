@@ -21,5 +21,8 @@ However, this time I was adding event listeners to each button on JS instead of 
 
 addPointsToHomeTeam(1): Inside the arrow function, the addPointsToHomeTeam function is called with the argument 1. This means that every time the button is clicked, the addPointsToHomeTeam function will be called, and it will receive 1 as its argument.
 
-Explanation also in this article
-https://plainenglish.io/blog/passing-arguments-to-event-listeners-in-javascript-1a81bc397ecb
+Explanation also in [this article](https://plainenglish.io/blog/passing-arguments-to-event-listeners-in-javascript-1a81bc397ecb)
+
+## Demo
+
+Check out the live demo [here](https://preeminent-bonbon-0082e1.netlify.app/).
