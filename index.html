@@ -2,50 +2,55 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Basketball Scoreboard</title>
   </head>
   <body>
     <!-- html for the home team -->
-    <div class="container">
-      <div class="team-container">
+    <main class="container">
+      <section class="team-container">
         <h1>HOME</h1>
-        <img id="bax-logo" src="/assets/BAX-CAT-logo.png" alt="logo time basquetebol feminino BAX Catanduva">
-        <h3 class="score"id="display-home">0</h3>
+        <img
+          id="bax-logo"
+          src="/assets/BAX-CAT-logo.png"
+          alt="logo time basquetebol feminino BAX Catanduva"
+        />
+        <h3 class="score" id="display-home">0</h3>
         <div class="points">
           <button id="home-1-btn">+1</button>
           <button id="home-2-btn">+2</button>
           <button id="home-3-btn">+3</button>
         </div>
-      </div>
+      </section>
 
-       <!-- html for the reset button -->
-       <div class="middle-column">
-        <h2>Women's <br> Basketball <br>League</h2>
+      <!-- html for the reset button -->
+      <section class="reset-container">
+        <h2>Women's <br />Basketball <br />League</h2>
         <button id="reset-btn">RESET</button>
-        <img id="lbf-logo" src="/assets/lbf-live-3518532338.png" alt="liga brasileira de basquetebol logo">
-    </div>
+        <img
+          id="lbf-logo"
+          src="/assets/lbf-live-3518532338.png"
+          alt="liga brasileira de basquetebol logo"
+        />
+      </section>
 
       <!-- html for the guest team -->
-      <div class="container">
-        <div class="team-container">
-          <h1>GUEST</h1>
-         <img id="sesi-logo" src="/assets/SESI-Araraquara-Basquete.png" alt="logo time basquetebol feminino Sesi Araraquara">
-          <h3 class="score"id="display-guest">0</h3>
-          <div class="points">
-            <button id="guest-1-btn">+1</button>
-            <button id="guest-2-btn">+2</button>
-            <button id="guest-3-btn">+3</button>
-          </div>
+      <section class="team-container">
+        <h1>GUEST</h1>
+        <img
+          id="sesi-logo"
+          src="/assets/SESI-Araraquara-Basquete.png"
+          alt="logo time basquetebol feminino Sesi Araraquara"
+        />
+        <h3 class="score" id="display-guest">0</h3>
+        <div class="points">
+          <button id="guest-1-btn">+1</button>
+          <button id="guest-2-btn">+2</button>
+          <button id="guest-3-btn">+3</button>
         </div>
-
-       
-      
+      </section>
+    </main>
     <script src="script.js"></script>
   </body>
 </html>
